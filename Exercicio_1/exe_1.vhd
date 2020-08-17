@@ -15,8 +15,6 @@ end exe_1 ;
 architecture arch_exe_1 of exe_1 is
 begin
     
-  o1 <= in1 and in2;
-  o2 <= in2 or in3;
 
 end architecture ; 
 
