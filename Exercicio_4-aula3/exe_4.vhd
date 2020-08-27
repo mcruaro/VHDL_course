@@ -19,8 +19,6 @@ architecture exe_4 of exe_4 is
 
     begin
         
-        
-
         sig1 <= in1 or in2;
         sig2 <= not in3;
         
