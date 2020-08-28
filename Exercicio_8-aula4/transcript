@@ -91,3 +91,5 @@ do sim.do
 # Loading ieee.std_logic_1164(body)
 # Loading work.principal(principal)
 # Loading work.modulo(modulo)
+# End time: 22:33:32 on Aug 27,2020, Elapsed time: 0:27:12
+# Errors: 0, Warnings: 0
