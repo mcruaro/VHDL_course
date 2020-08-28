@@ -5,17 +5,17 @@
 # vmap -modelsim_quiet work work 
 # Modifying modelsim.ini
 # Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 21:17:18 on Aug 27,2020
+# Start time: 22:04:00 on Aug 27,2020
 # vcom -reportprogress 300 -work work modulo.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity modulo
 # -- Compiling architecture modulo of modulo
-# End time: 21:17:18 on Aug 27,2020, Elapsed time: 0:00:00
+# End time: 22:04:00 on Aug 27,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 21:17:18 on Aug 27,2020
+# Start time: 22:04:00 on Aug 27,2020
 # vcom -reportprogress 300 -work work principal.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -23,7 +23,7 @@
 # -- Compiling entity principal
 # -- Compiling architecture principal of principal
 # -- Loading entity modulo
-# End time: 21:17:18 on Aug 27,2020, Elapsed time: 0:00:00
+# End time: 22:04:00 on Aug 27,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # //  ModelSim PE Student Edition 10.4a Apr  7 2015 
 # //
@@ -44,20 +44,19 @@
 # // FOR HIGHER EDUCATION PURPOSES ONLY
 # //
 # vsim -do "sim.do" 
-# Start time: 21:17:19 on Aug 27,2020
+# Start time: 22:04:00 on Aug 27,2020
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading work.principal(principal)
 # Loading work.modulo(modulo)
-add wave -position 0  sim:/principal/in1
-add wave -position 0  sim:/principal/out1
-add wave -position 3  sim:/principal/modulo1/A
-add wave -position 3  sim:/principal/modulo1/B
-add wave -position 3  sim:/principal/modulo1/C
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Marcelo/Desktop/PROJETOS_GIT/VHDL_course/Modulo_example/wave.do
-force -freeze sim:/principal/in1 2 0
-force -freeze sim:/principal/in1 3 0
+add wave -position end  sim:/principal/in1
+add wave -position end  sim:/principal/out1
+add wave -position end  sim:/principal/sig_out1
+add wave -position end  sim:/principal/sig_out2
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Marcelo/Desktop/PROJETOS_GIT/VHDL_course/Exercicio_8-aula4/wave.do
+force -freeze sim:/principal/in1 9 0
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Marcelo/Desktop/PROJETOS_GIT/VHDL_course/Exercicio_8-aula4/wave.do
 do sim.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # 
@@ -65,17 +64,17 @@ do sim.do
 # vmap -modelsim_quiet work work 
 # Modifying modelsim.ini
 # Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 21:20:20 on Aug 27,2020
+# Start time: 22:06:19 on Aug 27,2020
 # vcom -reportprogress 300 -work work modulo.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity modulo
 # -- Compiling architecture modulo of modulo
-# End time: 21:20:20 on Aug 27,2020, Elapsed time: 0:00:00
+# End time: 22:06:19 on Aug 27,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 21:20:21 on Aug 27,2020
+# Start time: 22:06:19 on Aug 27,2020
 # vcom -reportprogress 300 -work work principal.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -83,44 +82,10 @@ do sim.do
 # -- Compiling entity principal
 # -- Compiling architecture principal of principal
 # -- Loading entity modulo
-# End time: 21:20:21 on Aug 27,2020, Elapsed time: 0:00:00
+# End time: 22:06:19 on Aug 27,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim 
-# Start time: 21:20:21 on Aug 27,2020
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.principal(principal)
-# Loading work.modulo(modulo)
-do sim.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# 
-# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
-# vmap -modelsim_quiet work work 
-# Modifying modelsim.ini
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 21:22:01 on Aug 27,2020
-# vcom -reportprogress 300 -work work modulo.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity modulo
-# -- Compiling architecture modulo of modulo
-# End time: 21:22:01 on Aug 27,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 21:22:01 on Aug 27,2020
-# vcom -reportprogress 300 -work work principal.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity principal
-# -- Compiling architecture principal of principal
-# -- Loading entity modulo
-# End time: 21:22:01 on Aug 27,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 21:22:02 on Aug 27,2020
+# Start time: 22:06:20 on Aug 27,2020
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
