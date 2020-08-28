@@ -5,36 +5,14 @@
 # vmap -modelsim_quiet work work 
 # Modifying modelsim.ini
 # Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 19:14:49 on Aug 26,2020
-# vcom -work work exe_7.vhd 
+# Start time: 20:49:15 on Aug 27,2020
+# vcom -reportprogress 300 -work work exe_7.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity exe_6
-# -- Compiling architecture exe_6 of exe_6
-# ** Error: exe_7.vhd(18): Type error resolving infix expression ">" as type ieee.std_logic_1164.STD_LOGIC.
-# ** Error: exe_7.vhd(20): VHDL Compiler exiting
-# End time: 19:14:49 on Aug 26,2020, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
-# Error in macro ./sim.do line 5
-# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
-#     while executing
-# "vcom -work work exe_7.vhd"
-# ** Warning: (vlib-34) Library already exists at "work".
-# 
-# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
-# vmap -modelsim_quiet work work 
-# Modifying modelsim.ini
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 19:15:24 on Aug 26,2020
-# vcom -work work exe_7.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity exe_6
-# -- Compiling architecture exe_6 of exe_6
-# End time: 19:15:24 on Aug 26,2020, Elapsed time: 0:00:00
+# -- Compiling entity exe_7
+# -- Compiling architecture exe_7 of exe_7
+# End time: 20:49:15 on Aug 27,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # //  ModelSim PE Student Edition 10.4a Apr  7 2015 
 # //
@@ -54,10 +32,43 @@
 # // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
 # // FOR HIGHER EDUCATION PURPOSES ONLY
 # //
-# vsim -c -do "sim.do" 
-# Start time: 19:15:24 on Aug 26,2020
-# ** Error: (vsim-3170) Could not find 'C:/Users/Marcelo/Desktop/PROJETOS_GIT/VHDL_course/Exercicio_7-aula4/work.exe_7'.
+# vsim -do "sim.do" 
+# Start time: 20:49:15 on Aug 27,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.exe_7(exe_7)
+add wave -position end  sim:/exe_7/in1
+add wave -position end  sim:/exe_7/out1
+add wave -position end  sim:/exe_7/sig1
+add wave -position end  sim:/exe_7/ZERO
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Marcelo/Desktop/PROJETOS_GIT/VHDL_course/Exercicio_7-aula4/wave.do
+force -freeze sim:/exe_7/in1 38 0
+run 100ns
+force -freeze sim:/exe_7/in1 D 0
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
 # 
-# Error loading design
-# End time: 19:15:25 on Aug 26,2020, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 0
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 20:54:35 on Aug 27,2020
+# vcom -reportprogress 300 -work work exe_7.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exe_7
+# -- Compiling architecture exe_7 of exe_7
+# End time: 20:54:35 on Aug 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 20:54:36 on Aug 27,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.exe_7(exe_7)
+run 100ns
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Marcelo/Desktop/PROJETOS_GIT/VHDL_course/Exercicio_7-aula4/wave.do
+# End time: 21:09:06 on Aug 27,2020, Elapsed time: 0:14:30
+# Errors: 0, Warnings: 0

@@ -1,10 +1,14 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate /exe_6/address
-add wave -noupdate /exe_6/instruction
-add wave -noupdate /exe_6/absolute
+add wave -noupdate -divider ENTRADA
+add wave -noupdate -expand /exe_7/in1
+add wave -noupdate -divider SAIDA
+add wave -noupdate -expand /exe_7/out1
+add wave -noupdate -divider {SINAIS E CONSTANTES}
+add wave -noupdate /exe_7/sig1
+add wave -noupdate /exe_7/ZERO
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {18 ns} 0}
+WaveRestoreCursors {{Cursor 1} {68 ns} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 150
 configure wave -valuecolwidth 100
@@ -20,4 +24,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ns
 update
-WaveRestoreZoom {0 ns} {105 ns}
+WaveRestoreZoom {0 ns} {1 us}

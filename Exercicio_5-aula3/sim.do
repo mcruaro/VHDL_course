@@ -11,5 +11,3 @@ do wave.do
 
 force -freeze sim:/exe_5/in1 10 0
 force -freeze sim:/exe_5/in2 20 0
-
-run 1ms
