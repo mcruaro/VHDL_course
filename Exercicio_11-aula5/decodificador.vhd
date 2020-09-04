@@ -15,13 +15,17 @@ architecture decodificador of decodificador is
 
 
     begin
+        --Ver se esse codigo que fiz em aula esta de acordo com a tabela mesmo
+        x1 <=  '0' when p0 = '1' else
+               '0' when p1 = '1' else
+               '1' when p2 = '1' else
+               '1' when p2 = '1' else
+               '1';
 
-        key_out <=  A when a_en = '1' else
-                    B when b_en = '1' else
-                    C when c_en = '1' else
-                    D when d_en = '1' else
-                    (others=> '0');--equivale a completar tudo com zero == "00000000"
-       
+        --Fazer o WHEN-ELSE do x0
+        
+        --Fazer o WHEN-else do int (ou pode usar uma porta logica tambem como falei em aula)
+                  
     end architecture;
 
 
