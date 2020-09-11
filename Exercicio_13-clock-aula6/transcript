@@ -1,0 +1,388 @@
+# do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:23:48 on Sep 10,2020
+# vcom -reportprogress 300 -work work clock_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clock_counter
+# -- Compiling architecture clock_counter of clock_counter
+# End time: 21:23:48 on Sep 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:23:48 on Sep 10,2020
+# vcom -reportprogress 300 -work work testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity testbench
+# -- Compiling architecture testbench of testbench
+# -- Loading entity clock_counter
+# End time: 21:23:48 on Sep 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -do "sim.do" 
+# Start time: 21:23:48 on Sep 10,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench(testbench)
+# Loading work.clock_counter(clock_counter)
+add wave -position end  sim:/testbench/first_clock/clock
+add wave -position end  sim:/testbench/first_clock/reset
+add wave -position end  sim:/testbench/first_clock/tick_counter
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Marcelo/Desktop/PROJETOS_GIT/VHDL_course/Exercicio_13-clock-aula6/wave.do
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Fatal: (vsim-3421) Value 201 for tick_counter is out of range 0 to 200.
+#    Time: 2105 ns  Iteration: 0  Process: /testbench/first_clock/line__19 File: clock_counter.vhd
+# Fatal error in Process line__19 at clock_counter.vhd line 28
+# 
+# HDL call sequence:
+# Stopped at clock_counter.vhd 28 Process line__19
+# 
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Marcelo/Desktop/PROJETOS_GIT/VHDL_course/Exercicio_13-clock-aula6/wave.do
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:37:04 on Sep 10,2020
+# vcom -reportprogress 300 -work work clock_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clock_counter
+# -- Compiling architecture clock_counter of clock_counter
+# End time: 21:37:04 on Sep 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:37:04 on Sep 10,2020
+# vcom -reportprogress 300 -work work testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity testbench
+# -- Compiling architecture testbench of testbench
+# -- Loading entity clock_counter
+# End time: 21:37:04 on Sep 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:37:05 on Sep 10,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench(testbench)
+# Loading work.clock_counter(clock_counter)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: Tick counter zerado
+#    Time: 2105 ns  Iteration: 0  Instance: /testbench/first_clock
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:41:32 on Sep 10,2020
+# vcom -reportprogress 300 -work work clock_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity clock_counter
+# -- Compiling architecture clock_counter of clock_counter
+# ** Error: clock_counter.vhd(26): Integer literal 0 is not of type ieee.std_logic_arith.UNSIGNED.
+# ** Error: clock_counter.vhd(36): VHDL Compiler exiting
+# End time: 21:41:32 on Sep 10,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+# Error in macro ./sim.do line 4
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -work work clock_counter.vhd"
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:41:58 on Sep 10,2020
+# vcom -reportprogress 300 -work work clock_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity clock_counter
+# -- Compiling architecture clock_counter of clock_counter
+# End time: 21:41:58 on Sep 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:41:58 on Sep 10,2020
+# vcom -reportprogress 300 -work work testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity testbench
+# -- Compiling architecture testbench of testbench
+# -- Loading package std_logic_arith
+# -- Loading entity clock_counter
+# End time: 21:41:58 on Sep 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:41:58 on Sep 10,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.testbench(testbench)
+# Loading work.clock_counter(clock_counter)
+run
+run
+run
+run
+run
+run
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:45:33 on Sep 10,2020
+# vcom -reportprogress 300 -work work clock_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity clock_counter
+# -- Compiling architecture clock_counter of clock_counter
+# End time: 21:45:33 on Sep 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 21:45:33 on Sep 10,2020
+# vcom -reportprogress 300 -work work testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity testbench
+# -- Compiling architecture testbench of testbench
+# -- Loading package std_logic_arith
+# -- Loading entity clock_counter
+# End time: 21:45:33 on Sep 10,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:45:34 on Sep 10,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.testbench(testbench)
+# Loading work.clock_counter(clock_counter)
+run 1ms
+run 50 ms
+run 1s
+# Invalid time value: 1s
+1000 ms
+# invalid command name "1000"
+run 1000 ms
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Marcelo/Desktop/PROJETOS_GIT/VHDL_course/Exercicio_13-clock-aula6/wave.do
