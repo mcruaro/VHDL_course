@@ -1,7 +1,7 @@
 vlib work
 vmap work work
 
-vcom -work work fsm.vhd
+vcom -work work exe_17.vhd
 vcom -work work testbench.vhd
 
 #Simula o arquivo
