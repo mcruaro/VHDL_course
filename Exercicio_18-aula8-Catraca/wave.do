@@ -1,10 +1,10 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate /testbench/clock
-add wave -noupdate /testbench/reset
-add wave -noupdate /testbench/tb_push
-add wave -noupdate /testbench/tb_coin
-add wave -noupdate /testbench/tb_free
+add wave -noupdate -expand -group Testbench /testbench/clock
+add wave -noupdate -expand -group Testbench /testbench/reset
+add wave -noupdate -expand -group Testbench /testbench/tb_push
+add wave -noupdate -expand -group Testbench /testbench/tb_coin
+add wave -noupdate -expand -group Testbench /testbench/tb_free
 add wave -noupdate -expand -group CATRACA /testbench/my_catraca/fsm_catraca
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {170 ns} 0}
@@ -23,4 +23,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ns
 update
-WaveRestoreZoom {0 ns} {205 ns}
+WaveRestoreZoom {0 ns} {112 ns}

@@ -28,7 +28,8 @@ architecture exe_16 of exe_16 is
         begin
             if reset = '1' then
                 test_equal <= (others => '0');
-            elsif rising_edge(clock) then --tick_counter= 1
+            
+             elsif rising_edge(clock) then --tick_counter= 1
                
                 if in1_high = in1_low then
                     test_equal <= test_equal + 1;

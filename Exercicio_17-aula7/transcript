@@ -527,3 +527,5 @@ do sim.do
 # ** Error: (vish-4014) No objects found matching '/testbench/first_clock/display2'.
 # Executing ONERROR command at macro ./wave.do line 16
 write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/Marcelo/Desktop/PROJETOS_GIT/VHDL_course/Exercicio_17-aula7/wave.do
+# End time: 21:17:34 on Sep 24,2020, Elapsed time: 0:39:03
+# Errors: 3, Warnings: 0
