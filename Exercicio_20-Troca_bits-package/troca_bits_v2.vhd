@@ -10,8 +10,8 @@ entity troca_bits_v2 is
         reset : in std_logic;
 
         ready_in    : in std_logic;
-        in1         : in reg8;
-        out1        : out reg8;
+        in1         : in reg;
+        out1        : out reg;
         ready_out   : out std_logic 
     );
 end troca_bits_v2;

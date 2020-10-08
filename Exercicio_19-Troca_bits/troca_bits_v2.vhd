@@ -58,10 +58,7 @@ architecture troca_bits_v2 of troca_bits_v2 is
                             FTB <= INIT;
                         else
                             counter <= counter - 1;
-                        end if;
-
-
-                
+                        end if;                
                 end case;
                                
             end if;

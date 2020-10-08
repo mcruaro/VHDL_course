@@ -1,5 +1,6 @@
 library ieee;
 use ieee.std_logic_1164.all;
+use work.standards.all;
 
 entity testbench is
 end testbench;
@@ -10,9 +11,9 @@ architecture testbench of testbench is
     signal reset : std_logic;
 
     signal tb_ready_in    : std_logic := '0';
-    signal tb_in1         : std_logic_vector(7 downto 0) := "00000000";
+    signal tb_in1         : reg := "00000000";
     
-    signal tb_out1        : std_logic_vector(7 downto 0);
+    signal tb_out1        : reg;
     signal tb_ready_out   : std_logic;
 
     
