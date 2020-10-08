@@ -1,6 +1,7 @@
 vlib work
 vmap work work
 
+vcom -work work standards.vhd
 vcom -work work troca_bits_v2.vhd
 vcom -work work testbench.vhd
 
