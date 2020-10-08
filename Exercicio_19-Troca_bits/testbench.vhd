@@ -18,7 +18,7 @@ architecture testbench of testbench is
     
 begin
 
-    my_troca_bits : entity work.troca_bits
+    my_troca_bits : entity work.troca_bits_v2
         port map(
             clock => clock,
             reset => reset,
@@ -36,7 +36,7 @@ begin
     begin
         wait for 205 ns;
         tb_ready_in <= '1';
-        tb_in1 <= "10100111";
+        tb_in1 <= "00111001";
         wait for 10 ns; --1 pulso de clock
         tb_ready_in <= '0';
         
