@@ -13,9 +13,10 @@ architecture testbench of testbench is
     signal tb_T    : std_logic;
     
     
-    signal bit_container : std_logic_vector(63 downto 0) := x"188ddd03f3f1bf62";
+    --signal bit_container : std_logic_vector(63 downto 0) := x"188ddd03f3f1bf62";
+    signal bit_container : std_logic_vector(127 downto 0) := x"77c07a9a7f0c5fcaabbf06e86b2e5eb7";
 
-    signal count : integer := 63;
+    signal count : integer := 127;
     
 begin
 

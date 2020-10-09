@@ -9,4 +9,4 @@ vsim -novopt -t 1ns +notimingchecks work.testbench
 
 do wave.do
 
-run 350 ns
+run 1500 ns
