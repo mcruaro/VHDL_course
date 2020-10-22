@@ -20,8 +20,6 @@ begin
             clock       => clock,
             reset       => reset,
 
-            initial     => '1',
-
             sync_in     => tb_sync2,
             sync_out    => tb_sync1
         );
@@ -32,7 +30,6 @@ begin
             clock       => clock,
             reset       => reset,
 
-            initial     => '0',
             sync_in     => tb_sync1,
             sync_out    => tb_sync2
         );
