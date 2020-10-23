@@ -15,7 +15,6 @@ architecture testbench of testbench is
 begin
 
     semaforo1 : entity work.semaforo
-        generic map('1')
         port map(
             clock       => clock,
             reset       => reset,
@@ -27,7 +26,6 @@ begin
         );
 
     semaforo2 : entity work.semaforo
-        generic map('0')
         port map(
             clock       => clock,
             reset       => reset,

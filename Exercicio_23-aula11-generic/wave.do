@@ -2,6 +2,7 @@ onerror {resume}
 quietly WaveActivateNextPane {} 0
 add wave -noupdate /testbench/semaforo1/clock
 add wave -noupdate /testbench/semaforo1/reset
+add wave -noupdate -expand -group SEMAFORO1 /testbench/semaforo1/init
 add wave -noupdate -expand -group SEMAFORO1 /testbench/semaforo1/verde
 add wave -noupdate -expand -group SEMAFORO1 /testbench/semaforo1/amarelo
 add wave -noupdate -expand -group SEMAFORO1 /testbench/semaforo1/vermelho
@@ -12,6 +13,7 @@ add wave -noupdate -expand -group SEMAFORO1 -radix unsigned -radixshowbase 0 /te
 add wave -noupdate -expand -group SEMAFORO1 /testbench/semaforo1/Tg
 add wave -noupdate -expand -group SEMAFORO1 /testbench/semaforo1/Ty
 add wave -noupdate -expand -group SEMAFORO1 /testbench/semaforo1/Tr
+add wave -noupdate -expand -group SEMAFORO2 /testbench/semaforo2/init
 add wave -noupdate -expand -group SEMAFORO2 /testbench/semaforo2/verde
 add wave -noupdate -expand -group SEMAFORO2 /testbench/semaforo2/amarelo
 add wave -noupdate -expand -group SEMAFORO2 /testbench/semaforo2/vermelho

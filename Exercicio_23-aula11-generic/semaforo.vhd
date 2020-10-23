@@ -18,10 +18,9 @@ entity semaforo is
 
         sync_in   : in std_logic;
         sync_out  : out std_logic
-
-
     );
 end semaforo;
+
 
 architecture semaforo of semaforo is
     
@@ -34,21 +33,11 @@ architecture semaforo of semaforo is
     constant Tr : std_logic_vector(3 downto 0) := "1010"; --Equivale a 10 decimal
 
     begin
-       
-        GENERATE_TESTE_ON: if init = '1' generate
-            sync_out <= '1';
-        end generate GENERATE_TESTE_ON;
-
-        GENERATE_TESTE_OFF: if init = '0' generate
-            sync_out <= '0';
-        end generate GENERATE_TESTE_OFF;
-
          --Logica combinacional
          verde    <= '1' when FSM = GREEN   else '0';
          amarelo  <= '1' when FSM = YELLOW  else '0';
          vermelho <= '1' when FSM = RED     else '0';
-         --sync_out <= '1' when FSM = GREEN or FSM = YELLOW else '0';
-
+         sync_out <= '1' when FSM = GREEN or FSM = YELLOW else '0';
 
         --Logica sequencia
         --Controla a FSM
@@ -56,7 +45,6 @@ architecture semaforo of semaforo is
         begin
             if reset = '1' then
                 counter <= "0001";
-                
                 if init = '1' then
                     FSM <= GREEN;
                 else
