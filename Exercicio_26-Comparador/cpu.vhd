@@ -45,7 +45,29 @@ architecture cpu of cpu is
                 end_operation <= '0';
                 
             elsif rising_edge(clock) then
-                
+                case FSM is
+                    when WAIT_VALID =>
+                        if valid = '1' then
+                            FSM <= COMPARE;
+                        end if;
+                    when COMPARE =>
+                        result <= v1 xor v2;
+                        FSM <= STORE;
+                    when STORE =>
+                        we <= '1';
+                        write_addr <= addr;
+                        if result = "0000" then
+                            data_out <= "0001";
+                        else
+                            data_out <= "0000";
+                        end if;
+                        FSM <= WAIT_MEM;
+                    when WAIT_MEM =>
+                        FSM <= FINISH;
+                        we <= '0';
+                    when FINISH =>
+                        end_operation <= '0';
+                end case;
             end if;
 
         end process; 
