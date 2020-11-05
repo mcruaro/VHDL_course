@@ -1,71 +1,38 @@
 # do sim.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# 
 # Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
 # vmap -modelsim_quiet work work 
+# Copying C:/Modeltech_pe_edu_10.4a/win32pe_edu/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
+# ** Warning: Copied C:/Modeltech_pe_edu_10.4a/win32pe_edu/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
 # Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 17:00:31 on Nov 04,2020
-# vcom -work work testbench_write.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_textio
-# -- Compiling entity testbench_write
-# -- Compiling architecture testbench_write of testbench_write
-# ** Error: testbench_write.vhd(41): Subprogram "WRITE" is ambiguous.
-#    Feasible subprograms are:
-#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.STRING, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(145)
-#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, BIT_VECTOR, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(126)
-#       (explicit) std_logic_textio.WRITE[std.TEXTIO.LINE, STD_LOGIC_VECTOR, std.TEXTIO.SIDE, NATURAL] at vhdl_src/synopsys/std_logic_textio.vhd(37)
-#       (explicit) std_logic_textio.WRITE[std.TEXTIO.LINE, STD_ULOGIC_VECTOR, std.TEXTIO.SIDE, NATURAL] at vhdl_src/synopsys/std_logic_textio.vhd(31)
-# ** Error: testbench_write.vhd(41): No feasible entries for subprogram "WRITE".
-# ** Error: testbench_write.vhd(53): VHDL Compiler exiting
-# End time: 17:00:31 on Nov 04,2020, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 0
+# Start time: 20:25:24 on Nov 05,2020
+# vcom -work work testbench_completo.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "testbench_completo.vhd" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# End time: 20:25:24 on Nov 05,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
 # ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
 # Error in macro ./sim.do line 4
 # C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
 #     while executing
-# "vcom -work work testbench_write.vhd"
+# "vcom -work work testbench_completo.vhd"
 # ** Warning: (vlib-34) Library already exists at "work".
 # 
 # Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
 # vmap -modelsim_quiet work work 
 # Modifying modelsim.ini
 # Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 17:00:54 on Nov 04,2020
-# vcom -work work testbench_write.vhd 
+# Start time: 20:26:03 on Nov 05,2020
+# vcom -work work testbench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_textio
-# -- Compiling entity testbench_write
-# -- Compiling architecture testbench_write of testbench_write
-# ** Error: testbench_write.vhd(41): Target type std.TEXTIO.LINE in variable assignment is different from expression type std.STANDARD.STRING.
-# ** Error: testbench_write.vhd(54): VHDL Compiler exiting
-# End time: 17:00:54 on Nov 04,2020, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
-# Error in macro ./sim.do line 4
-# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
-#     while executing
-# "vcom -work work testbench_write.vhd"
-# ** Warning: (vlib-34) Library already exists at "work".
-# 
-# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
-# vmap -modelsim_quiet work work 
-# Modifying modelsim.ini
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 17:02:09 on Nov 04,2020
-# vcom -work work testbench_write.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_textio
-# -- Compiling entity testbench_write
-# -- Compiling architecture testbench_write of testbench_write
-# End time: 17:02:09 on Nov 04,2020, Elapsed time: 0:00:00
+# -- Compiling entity testbench
+# -- Compiling architecture testbench of testbench
+# End time: 20:26:03 on Nov 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # //  ModelSim PE Student Edition 10.4a Apr  7 2015 
 # //
@@ -86,28 +53,20 @@
 # // FOR HIGHER EDUCATION PURPOSES ONLY
 # //
 # vsim -c -do "sim.do" 
-# Start time: 17:02:09 on Nov 04,2020
+# Start time: 20:26:03 on Nov 05,2020
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.std_logic_textio(body)
-# Loading work.testbench_write(testbench_write)
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Marcelo  Hostname: MARCELO-PC  ProcessID: 3476
-# 
-#           Attempting to use alternate WLF file "./wlftarizes".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlftarizes
-# 
-# ** Error: (vish-4014) No objects found matching '/testbench/reset'.
+# Loading work.testbench(testbench)
+# ** Error: (vish-4014) No objects found matching '/testbench_read/clock'.
 # Executing ONERROR command at macro ./wave.do line 3
-# ** Error: (vish-4014) No objects found matching '/testbench/clock'.
+# ** Error: (vish-4014) No objects found matching '/testbench_read/reset'.
 # Executing ONERROR command at macro ./wave.do line 4
-# ** Error: (vish-4014) No objects found matching '0'.
-# (vish-4014) No objects found matching '/testbench/dado_recebido'.
+# ** Error: (vish-4014) No objects found matching '/testbench_read/FSM'.
 # Executing ONERROR command at macro ./wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/testbench_read/dado_recebido'.
+# Executing ONERROR command at macro ./wave.do line 6
 # wave activecursor not supported in batch mode
 # configure wave not supported in batch mode
 # configure wave not supported in batch mode
@@ -128,39 +87,31 @@
 # vmap -modelsim_quiet work work 
 # Modifying modelsim.ini
 # Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 17:02:18 on Nov 04,2020
-# vcom -work work testbench_write.vhd 
+# Start time: 20:26:24 on Nov 05,2020
+# vcom -work work testbench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_textio
-# -- Compiling entity testbench_write
-# -- Compiling architecture testbench_write of testbench_write
-# End time: 17:02:18 on Nov 04,2020, Elapsed time: 0:00:00
+# -- Compiling entity testbench
+# -- Compiling architecture testbench of testbench
+# End time: 20:26:24 on Nov 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim 
-# Start time: 17:02:18 on Nov 04,2020
+# Start time: 20:26:24 on Nov 05,2020
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.std_logic_textio(body)
-# Loading work.testbench_write(testbench_write)
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Marcelo  Hostname: MARCELO-PC  ProcessID: 3476
-# 
-#           Attempting to use alternate WLF file "./wlftci4k9i".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlftci4k9i
-# 
-# ** Error: (vish-4014) No objects found matching '/testbench/reset'.
+# Loading work.testbench(testbench)
+# ** Error: (vish-4014) No objects found matching '/testbench_read/clock'.
 # Executing ONERROR command at macro ./wave.do line 3
-# ** Error: (vish-4014) No objects found matching '/testbench/clock'.
+# ** Error: (vish-4014) No objects found matching '/testbench_read/reset'.
 # Executing ONERROR command at macro ./wave.do line 4
-# ** Error: (vish-4014) No objects found matching '0'.
-# (vish-4014) No objects found matching '/testbench/dado_recebido'.
+# ** Error: (vish-4014) No objects found matching '/testbench_read/FSM'.
 # Executing ONERROR command at macro ./wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/testbench_read/dado_recebido'.
+# Executing ONERROR command at macro ./wave.do line 6
 # wave activecursor not supported in batch mode
 # configure wave not supported in batch mode
 # configure wave not supported in batch mode
@@ -181,145 +132,31 @@
 # vmap -modelsim_quiet work work 
 # Modifying modelsim.ini
 # Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 17:09:19 on Nov 04,2020
-# vcom -work work testbench_write.vhd 
+# Start time: 20:27:19 on Nov 05,2020
+# vcom -work work testbench.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_textio
-# -- Compiling entity testbench_write
-# -- Compiling architecture testbench_write of testbench_write
-# End time: 17:09:19 on Nov 04,2020, Elapsed time: 0:00:00
+# -- Compiling entity testbench
+# -- Compiling architecture testbench of testbench
+# End time: 20:27:19 on Nov 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim 
-# Start time: 17:09:19 on Nov 04,2020
+# Start time: 20:27:19 on Nov 05,2020
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.std_logic_textio(body)
-# Loading work.testbench_write(testbench_write)
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Marcelo  Hostname: MARCELO-PC  ProcessID: 3476
-# 
-#           Attempting to use alternate WLF file "./wlftxv0vrf".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlftxv0vrf
-# 
-# ** Error: (vish-4014) No objects found matching '/testbench/reset'.
+# Loading work.testbench(testbench)
+# ** Error: (vish-4014) No objects found matching '/testbench_read/clock'.
 # Executing ONERROR command at macro ./wave.do line 3
-# ** Error: (vish-4014) No objects found matching '/testbench/clock'.
+# ** Error: (vish-4014) No objects found matching '/testbench_read/reset'.
 # Executing ONERROR command at macro ./wave.do line 4
-# ** Error: (vish-4014) No objects found matching '0'.
-# (vish-4014) No objects found matching '/testbench/dado_recebido'.
+# ** Error: (vish-4014) No objects found matching '/testbench_read/FSM'.
 # Executing ONERROR command at macro ./wave.do line 5
-# wave activecursor not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# ** Warning: (vlib-34) Library already exists at "work".
-# 
-# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
-# vmap -modelsim_quiet work work 
-# Modifying modelsim.ini
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 17:09:42 on Nov 04,2020
-# vcom -work work testbench_write.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_textio
-# -- Compiling entity testbench_write
-# -- Compiling architecture testbench_write of testbench_write
-# End time: 17:09:42 on Nov 04,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 17:09:42 on Nov 04,2020
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_textio(body)
-# Loading work.testbench_write(testbench_write)
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Marcelo  Hostname: MARCELO-PC  ProcessID: 3476
-# 
-#           Attempting to use alternate WLF file "./wlfthsydvq".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlfthsydvq
-# 
-# ** Error: (vish-4014) No objects found matching '/testbench/reset'.
-# Executing ONERROR command at macro ./wave.do line 3
-# ** Error: (vish-4014) No objects found matching '/testbench/clock'.
-# Executing ONERROR command at macro ./wave.do line 4
-# ** Error: (vish-4014) No objects found matching '0'.
-# (vish-4014) No objects found matching '/testbench/dado_recebido'.
-# Executing ONERROR command at macro ./wave.do line 5
-# wave activecursor not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# ** Warning: (vlib-34) Library already exists at "work".
-# 
-# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
-# vmap -modelsim_quiet work work 
-# Modifying modelsim.ini
-# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
-# Start time: 17:09:58 on Nov 04,2020
-# vcom -work work testbench_write.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_textio
-# -- Compiling entity testbench_write
-# -- Compiling architecture testbench_write of testbench_write
-# End time: 17:09:58 on Nov 04,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 17:09:59 on Nov 04,2020
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_textio(body)
-# Loading work.testbench_write(testbench_write)
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: Marcelo  Hostname: MARCELO-PC  ProcessID: 3476
-# 
-#           Attempting to use alternate WLF file "./wlftirh8q6".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlftirh8q6
-# 
-# ** Error: (vish-4014) No objects found matching '/testbench/reset'.
-# Executing ONERROR command at macro ./wave.do line 3
-# ** Error: (vish-4014) No objects found matching '/testbench/clock'.
-# Executing ONERROR command at macro ./wave.do line 4
-# ** Error: (vish-4014) No objects found matching '0'.
-# (vish-4014) No objects found matching '/testbench/dado_recebido'.
-# Executing ONERROR command at macro ./wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/testbench_read/dado_recebido'.
+# Executing ONERROR command at macro ./wave.do line 6
 # wave activecursor not supported in batch mode
 # configure wave not supported in batch mode
 # configure wave not supported in batch mode

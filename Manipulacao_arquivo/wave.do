@@ -1,8 +1,9 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate /testbench/reset
-add wave -noupdate /testbench/clock
-add wave -noupdate -radix binary -radixshowbase 0 /testbench/dado_recebido
+add wave -noupdate /testbench_read/clock
+add wave -noupdate /testbench_read/reset
+add wave -noupdate /testbench_read/FSM
+add wave -noupdate /testbench_read/dado_recebido
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {110 ns} 0}
 quietly wave cursor active 1

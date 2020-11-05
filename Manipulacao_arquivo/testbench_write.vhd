@@ -36,10 +36,16 @@ begin
                     file_open(file_DESTINO, "destino.txt", WRITE_MODE); --file file_DESTINO : text;
                     FSM <= WRITE;
                 when WRITE =>
-                    dado_linha := "1010";
+                    dado_linha := "1000";
                     write(linha_escrita, dado_linha);
                     writeline(file_DESTINO, linha_escrita);
                     FSM <= CLOSE_FILE;
+
+                    dado_linha := "0000";
+                    write(linha_escrita, dado_linha);
+                    writeline(file_DESTINO, linha_escrita);
+                    FSM <= CLOSE_FILE;
+
                 when CLOSE_FILE =>
                     file_close(file_DESTINO);
             end case;

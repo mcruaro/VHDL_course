@@ -18,7 +18,7 @@ architecture testbench of testbench is
     signal dado_recebido : std_logic_vector(3 downto 0);
 
     --FSM para controlar as operacoes de arquivos
-    type fsm_state is (OPEN_FILE, READ, CLOSE_FILE);
+    type fsm_state is (OPEN_FILE, READ_WRITE, CLOSE_FILE);
     signal FSM : fsm_state;
     
 begin
@@ -43,14 +43,14 @@ begin
                     file_open(file_ORIGEM, "origem.txt",  READ_MODE);
                     file_open(file_DESTINO, "destino.txt", WRITE_MODE);
 
-                    FSM <= READ;
-                when READ =>
+                    FSM <= READ_WRITE;
+                when READ_WRITE =>
                     if not endfile(file_ORIGEM) then
                         readline(file_ORIGEM, linha_lida);
                         read(linha_lida, dado_linha);
                         dado_recebido <= dado_linha;
 
-                        write(linha_escrita, dado_linha, right, 4);
+                        write(linha_escrita, dado_linha);
                         writeline(file_DESTINO, linha_escrita);
                     else
                         FSM <= CLOSE_FILE;

@@ -1,13 +1,13 @@
 library ieee;
 use ieee.std_logic_1164.all;
-
+--Novos includes
 use std.textio.all;
 use ieee.std_logic_textio.all;
 
-entity testbench is
-end testbench;
+entity testbench_read is
+end testbench_read;
 
-architecture testbench of testbench is
+architecture testbench_read of testbench_read is
 
     signal clock : std_logic := '1';
     signal reset : std_logic;
