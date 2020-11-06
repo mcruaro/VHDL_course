@@ -41,7 +41,6 @@ begin
         );
 
     reset     <= '1', '0' after 100 ns;
-	-- 100 MHz
     clock     <= not clock after 5 ns;
     
 
