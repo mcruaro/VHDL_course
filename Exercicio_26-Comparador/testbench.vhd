@@ -63,8 +63,8 @@ begin
         sig_addr <= "000";
         sig_valid <= '0';
         wait for 120 ns;
-        sig_v1 <= "1111";
-        sig_v2 <= "1111";
+        sig_v1 <= "1010";
+        sig_v2 <= "1010";
         sig_addr <= "010";
         sig_valid <= '1';
         wait until sig_end_operation = '1';
