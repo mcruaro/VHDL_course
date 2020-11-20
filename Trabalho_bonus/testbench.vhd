@@ -22,7 +22,7 @@ begin
             clock => clock,
             reset => reset,
             botao_on => tb_botao_on,
-            print => tb_print,
+            imprimir => tb_print,
             valor => tb_valor
         );
 

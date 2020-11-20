@@ -20,6 +20,7 @@ architecture testbench of testbench is
     signal FSM : fsm_state;
 
     type meu_tipo_array is array(3 downto 0) of std_logic_vector(4 downto 0);
+    
     constant d_set : meu_tipo_array :=
     ("10111",
     "00000",
