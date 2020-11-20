@@ -20,9 +20,10 @@ architecture testbench of testbench is
      --Sinais de leitura de arquivo
     file file_ORIGEM  : text;
 
+    
+
     type meu_tipo_array is array(3 downto 0) of std_logic_vector(4 downto 0);
     signal d_in : meu_tipo_array;
-    
     signal counter : integer range 0 to 4;
     
 begin
@@ -34,8 +35,8 @@ begin
         variable dado_linha : std_logic_vector(4 downto 0);
       begin
         if reset = '1' then
+            d_in <= (others => "00000");
             counter <= 0;
-            --d_in <= ( others => "00000");
         elsif rising_edge(clock) then
 
             case FSM is
@@ -46,7 +47,6 @@ begin
                     if not endfile(file_ORIGEM) then
                         readline(file_ORIGEM, linha_lida);
                         read(linha_lida, dado_linha);
-                        
                         d_in(counter) <= dado_linha; --signal dado_recebido : std_logic_vector(3 downto 0);
                         counter <= counter + 1;
                     else
