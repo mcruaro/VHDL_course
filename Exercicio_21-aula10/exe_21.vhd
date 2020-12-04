@@ -54,7 +54,6 @@ architecture exe_21 of exe_21 is
                     when LIGHT1 =>
                         FSM <= LIGHT2;
                     when LIGHT2 =>
-                        FSM <= LIGHT2; 
                         FSM <= B0;
                 end case;
             end if;
