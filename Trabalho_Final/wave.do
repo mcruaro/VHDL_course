@@ -1,11 +1,15 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate /testbench/clock
-add wave -noupdate /testbench/reset
-add wave -noupdate /testbench/sig_bit_in
+add wave -noupdate /testbench/my_rec/clock
+add wave -noupdate /testbench/my_rec/reset
+add wave -noupdate /testbench/my_rec/bit_in
+add wave -noupdate /testbench/my_rec/line
+add wave -noupdate /testbench/my_rec/recognized
+add wave -noupdate /testbench/my_rec/counter
+add wave -noupdate /testbench/my_rec/FSM
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {0 ns} 0}
-quietly wave cursor active 0
+WaveRestoreCursors {{Cursor 1} {85 ns} 0}
+quietly wave cursor active 1
 configure wave -namecolwidth 150
 configure wave -valuecolwidth 100
 configure wave -justifyvalue left

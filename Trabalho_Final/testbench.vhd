@@ -3,6 +3,7 @@ use ieee.std_logic_1164.all;
 --Novos includes
 use std.textio.all;
 use ieee.std_logic_textio.all;
+use ieee.numeric_std.all; --Usado para funcao to_integer
 
 entity testbench is
 end testbench;
@@ -32,11 +33,15 @@ architecture testbench of testbench is
 begin
 
     --Instanciar o recognizer.vhd
-
-
-
-
-
+    my_rec : entity work.recognizer
+    port map(
+        clock => clock,
+        reset => reset,
+        bit_in => sig_bit_in,
+        recognized => sig_rec,
+        line => sig_line
+    );
+    
     --Logica que gera o clock e reset artificialmente
     reset     <= '1', '0' after 100 ns;
     clock     <= not clock after 5 ns;-- 100 MHz
@@ -75,6 +80,7 @@ begin
     process(clock, reset)
       variable linha_escrita : line;
       variable dado_linha     : std_logic_vector(15 downto 0);
+      variable decimal_value : integer;
     begin
       if reset = '1' then
         FSM_WRITE <= OPEN_FILE;
@@ -86,7 +92,8 @@ begin
               when WRITE =>
                 if sig_rec = '1' then
                   dado_linha := sig_line;
-                  write(linha_escrita, dado_linha);
+                  decimal_value := to_integer(unsigned(sig_line));
+                  write(linha_escrita, decimal_value);
                   writeline(file_DESTINO, linha_escrita);
                 end if;
 
@@ -96,6 +103,4 @@ begin
       end if;
     end process;
 
-
 end architecture;
-
