@@ -5,7 +5,7 @@ entity simple_example is
     port (
         a : in std_logic;
         b : in std_logic;
-        o : out std_logic
+        o : out std_logic   --Porta de saida
     );
 end simple_example;
 
