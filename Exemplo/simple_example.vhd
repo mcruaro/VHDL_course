@@ -11,5 +11,7 @@ end simple_example;
 
 architecture simple_example of simple_example is
 begin
+    
     o <= a and b;
+
 end simple_example;
