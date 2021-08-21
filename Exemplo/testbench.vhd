@@ -24,7 +24,7 @@ BEGIN
         b_tb <= '1';
         WAIT FOR 10 ns;
         a_tb <= '1';
-        b_tb <= '0';
+        b_tb <= '1';
         WAIT FOR 10 ns;
         a_tb <= '0';
         WAIT FOR 10 ns;

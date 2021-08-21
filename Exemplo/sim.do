@@ -10,5 +10,5 @@ vcom -work work testbench.vhd
 #Simula o arquivo testebench
 vsim -t 1ns +notimingchecks work.testbench
 
-
+do wave.do
 
