@@ -14,9 +14,20 @@ ARCHITECTURE testbench OF testbench IS
 
 BEGIN
 
-    exe_1 : ENTITY work.exe_1
+    inst_1 : ENTITY work.exe_1
         PORT MAP(
             in1 => in1_tb,
+            in2 => in2_tb,
+            in3 => in3_tb,
+
+            o1  => o1_tb,
+            o2  => o2_tb
+        );
+
+
+    inst_2 : ENTITY work.exe_1
+        PORT MAP(
+            in1 => o1_tb,
             in2 => in2_tb,
             in3 => in3_tb,
 

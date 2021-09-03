@@ -20,10 +20,13 @@ architecture exe_1 of exe_1 is
 begin
 
     c <= in1 and in2;
+
     d <= c or in3;
 
     o1 <= c and d;
     o2 <= d;
+
+    
 
     --o1 <= (in1 and in2) and ((in1 and in2)  or  (in3));
     --o2 <=  (in1 and in2)  or  (in3);
