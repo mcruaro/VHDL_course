@@ -1,0 +1,189 @@
+# do sim.do
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:41:05 on Oct 30,2021
+# vcom -reportprogress 300 -work work fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fsm
+# -- Compiling architecture fsm of fsm
+# End time: 01:41:05 on Oct 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:41:05 on Oct 30,2021
+# vcom -reportprogress 300 -work work testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity testbench
+# -- Compiling architecture testbench of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity fsm
+# ** Error: testbench.vhd(29): Illegal target for signal assignment.
+# ** Error: testbench.vhd(29): (vcom-1136) Unknown identifier "my_bit".
+# ** Error: testbench.vhd(31): Illegal target for signal assignment.
+# ** Error: testbench.vhd(31): (vcom-1136) Unknown identifier "my_bit".
+# ** Error: testbench.vhd(33): Illegal target for signal assignment.
+# ** Error: testbench.vhd(33): (vcom-1136) Unknown identifier "my_bit".
+# ** Error: testbench.vhd(35): Illegal target for signal assignment.
+# ** Error: testbench.vhd(35): (vcom-1136) Unknown identifier "my_bit".
+# ** Error: testbench.vhd(37): Illegal target for signal assignment.
+# ** Error: testbench.vhd(37): (vcom-1136) Unknown identifier "my_bit".
+# ** Error: testbench.vhd(39): Illegal target for signal assignment.
+# ** Error: testbench.vhd(39): (vcom-1136) Unknown identifier "my_bit".
+# ** Error: testbench.vhd(41): Illegal target for signal assignment.
+# ** Error: testbench.vhd(41): (vcom-1136) Unknown identifier "my_bit".
+# ** Error: testbench.vhd(43): Illegal target for signal assignment.
+# ** Error: testbench.vhd(43): (vcom-1136) Unknown identifier "my_bit".
+# ** Note: testbench.vhd(47): VHDL Compiler exiting
+# End time: 01:41:05 on Oct 30,2021, Elapsed time: 0:00:00
+# Errors: 16, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./sim.do line 7
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -work work testbench.vhd"
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:41:30 on Oct 30,2021
+# vcom -reportprogress 300 -work work fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fsm
+# -- Compiling architecture fsm of fsm
+# End time: 01:41:30 on Oct 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:41:30 on Oct 30,2021
+# vcom -reportprogress 300 -work work testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity testbench
+# -- Compiling architecture testbench of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity fsm
+# End time: 01:41:30 on Oct 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -t 1ns "+notimingchecks" work.testbench 
+# Start time: 01:41:30 on Oct 30,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(testbench)
+# Loading work.fsm(fsm)
+# ** UI-Msg: (vish-4014) No objects found matching '/testbench/fsm/in1'.
+# Executing ONERROR command at macro ./wave.do line 5
+add wave -position end  sim:/testbench/fsm/my_bit
+add wave -position end  sim:/testbench/fsm/FSM
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/git/VHDL_course/Exemplo_FSM/wave.do
+restart
+run
+run
+run
+run
+run
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:42:48 on Oct 30,2021
+# vcom -reportprogress 300 -work work fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fsm
+# -- Compiling architecture fsm of fsm
+# End time: 01:42:48 on Oct 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:42:48 on Oct 30,2021
+# vcom -reportprogress 300 -work work testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity testbench
+# -- Compiling architecture testbench of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity fsm
+# End time: 01:42:48 on Oct 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 01:42:50 on Oct 30,2021, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 0
+# vsim -t 1ns "+notimingchecks" work.testbench 
+# Start time: 01:42:50 on Oct 30,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(testbench)
+# Loading work.fsm(fsm)
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:43:03 on Oct 30,2021
+# vcom -reportprogress 300 -work work fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fsm
+# -- Compiling architecture fsm of fsm
+# End time: 01:43:03 on Oct 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:43:03 on Oct 30,2021
+# vcom -reportprogress 300 -work work testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity testbench
+# -- Compiling architecture testbench of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity fsm
+# End time: 01:43:03 on Oct 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 01:43:05 on Oct 30,2021, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 0
+# vsim -t 1ns "+notimingchecks" work.testbench 
+# Start time: 01:43:05 on Oct 30,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(testbench)
+# Loading work.fsm(fsm)
+run
+run
+run
+# End time: 02:04:14 on Oct 30,2021, Elapsed time: 0:21:09
+# Errors: 0, Warnings: 0

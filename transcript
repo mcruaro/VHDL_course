@@ -1,0 +1,2447 @@
+# sim.do
+# invalid command name "sim.do"
+cd Exercicio_14-IfElse_OlaMundo
+do sim.do
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:32:43 on Oct 30,2021
+# vcom -reportprogress 300 -work work exe_14.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity exe_14
+# -- Compiling architecture exe_14 of exe_14
+# End time: 00:32:44 on Oct 30,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:32:44 on Oct 30,2021
+# vcom -reportprogress 300 -work work testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity testbench
+# -- Compiling architecture testbench of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity exe_14
+# End time: 00:32:44 on Oct 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -t 1ns "+notimingchecks" work.testbench 
+# Start time: 00:32:44 on Oct 30,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(testbench)
+# Loading work.exe_14(exe_14)
+run
+# ** Note: Ola mundo
+#    Time: 125 ns  Iteration: 0  Instance: /testbench/exe_14
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:36:56 on Oct 30,2021
+# vcom -reportprogress 300 -work work exe_14.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity exe_14
+# -- Compiling architecture exe_14 of exe_14
+# End time: 00:36:56 on Oct 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:36:57 on Oct 30,2021
+# vcom -reportprogress 300 -work work testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity testbench
+# -- Compiling architecture testbench of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity exe_14
+# End time: 00:36:57 on Oct 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:36:58 on Oct 30,2021, Elapsed time: 0:04:14
+# Errors: 0, Warnings: 0
+# vsim -t 1ns "+notimingchecks" work.testbench 
+# Start time: 00:36:58 on Oct 30,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(testbench)
+# Loading work.exe_14(exe_14)
+run
+run
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:41:17 on Oct 30,2021
+# vcom -reportprogress 300 -work work exe_14.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity exe_14
+# -- Compiling architecture exe_14 of exe_14
+# End time: 00:41:18 on Oct 30,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:41:18 on Oct 30,2021
+# vcom -reportprogress 300 -work work testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity testbench
+# -- Compiling architecture testbench of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity exe_14
+# End time: 00:41:18 on Oct 30,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:41:19 on Oct 30,2021, Elapsed time: 0:04:21
+# Errors: 0, Warnings: 0
+# vsim -t 1ns "+notimingchecks" work.testbench 
+# Start time: 00:41:19 on Oct 30,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(testbench)
+# Loading work.exe_14(exe_14)
+run
+# ** Note: +1 segundo
+#    Time: 10105 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 20115 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 30125 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 40135 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 50145 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 60155 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 70165 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 80175 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 90185 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 100195 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 110205 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 120215 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 130225 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 140235 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 150245 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 160255 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 170265 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 180275 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 190285 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 200295 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 210305 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 220315 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 230325 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 240335 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 250345 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 260355 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 270365 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 280375 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 290385 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 300395 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 310405 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 320415 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 330425 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 340435 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 350445 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 360455 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 370465 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 380475 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 390485 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 400495 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 410505 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 420515 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 430525 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 440535 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 450545 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 460555 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 470565 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 480575 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 490585 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 500595 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 510605 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 520615 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 530625 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 540635 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 550645 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 560655 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 570665 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 580675 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 590685 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 600695 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 610705 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 620715 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 630725 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 640735 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 650745 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 660755 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 670765 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 680775 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 690785 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 700795 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 710805 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 720815 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 730825 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 740835 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 750845 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 760855 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 770865 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 780875 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 790885 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 800895 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 810905 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 820915 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 830925 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 840935 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 850945 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 860955 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 870965 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 880975 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 890985 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 900995 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 911005 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 921015 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 931025 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 941035 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 951045 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 961055 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 971065 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 981075 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 991085 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1001095 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1011105 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1021115 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1031125 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1041135 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1051145 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1061155 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1071165 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1081175 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1091185 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1101195 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1111205 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1121215 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1131225 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1141235 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1151245 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1161255 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1171265 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1181275 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1191285 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1201295 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1211305 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1221315 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1231325 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1241335 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1251345 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1261355 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1271365 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1281375 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1291385 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1301395 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1311405 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1321415 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1331425 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1341435 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1351445 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1361455 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1371465 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1381475 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1391485 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1401495 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1411505 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1421515 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1431525 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1441535 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1451545 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1461555 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1471565 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1481575 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1491585 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1501595 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1511605 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1521615 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1531625 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1541635 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1551645 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1561655 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1571665 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1581675 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1591685 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1601695 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1611705 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1621715 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1631725 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1641735 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1651745 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1661755 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1671765 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1681775 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1691785 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1701795 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1711805 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1721815 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1731825 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1741835 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1751845 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1761855 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1771865 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1781875 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1791885 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1801895 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1811905 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1821915 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1831925 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1841935 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1851945 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1861955 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1871965 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1881975 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1891985 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1901995 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1912005 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1922015 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1932025 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1942035 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1952045 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1962055 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1972065 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1982075 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 1992085 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2002095 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2012105 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2022115 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2032125 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2042135 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2052145 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2062155 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2072165 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2082175 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2092185 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2102195 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2112205 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2122215 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2132225 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2142235 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2152245 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2162255 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2172265 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2182275 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2192285 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2202295 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2212305 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2222315 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2232325 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2242335 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2252345 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2262355 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2272365 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2282375 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2292385 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2302395 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2312405 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2322415 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2332425 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2342435 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2352445 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2362455 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2372465 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2382475 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2392485 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2402495 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2412505 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2422515 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2432525 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2442535 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2452545 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2462555 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2472565 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2482575 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2492585 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2502595 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2512605 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2522615 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2532625 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2542635 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2552645 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2562655 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2572665 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2582675 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2592685 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2602695 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2612705 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2622715 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2632725 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2642735 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2652745 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2662755 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2672765 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2682775 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2692785 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2702795 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2712805 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2722815 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2732825 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2742835 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2752845 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2762855 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2772865 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2782875 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2792885 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2802895 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2812905 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2822915 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2832925 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2842935 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2852945 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2862955 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2872965 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2882975 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2892985 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2902995 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2913005 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2923015 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2933025 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2943035 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2953045 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2963055 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2973065 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2983075 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 2993085 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3003095 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3013105 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3023115 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3033125 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3043135 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3053145 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3063155 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3073165 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3083175 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3093185 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3103195 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3113205 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3123215 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3133225 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3143235 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3153245 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3163255 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3173265 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3183275 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3193285 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3203295 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3213305 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3223315 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3233325 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3243335 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3253345 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3263355 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3273365 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3283375 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3293385 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3303395 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3313405 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3323415 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3333425 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3343435 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3353445 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3363455 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3373465 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3383475 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3393485 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3403495 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3413505 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3423515 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3433525 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3443535 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3453545 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3463555 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3473565 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3483575 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3493585 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3503595 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3513605 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3523615 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3533625 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3543635 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3553645 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3563655 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3573665 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3583675 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3593685 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3603695 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3613705 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3623715 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3633725 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3643735 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3653745 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3663755 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3673765 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3683775 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3693785 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3703795 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3713805 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3723815 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3733825 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3743835 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3753845 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3763855 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3773865 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3783875 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3793885 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3803895 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3813905 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3823915 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3833925 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3843935 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3853945 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3863955 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3873965 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3883975 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3893985 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3903995 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3914005 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3924015 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3934025 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3944035 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3954045 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3964055 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3974065 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3984075 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 3994085 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4004095 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4014105 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4024115 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4034125 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4044135 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4054145 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4064155 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4074165 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4084175 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4094185 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4104195 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4114205 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4124215 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4134225 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4144235 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4154245 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4164255 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4174265 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4184275 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4194285 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4204295 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4214305 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4224315 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4234325 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4244335 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4254345 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4264355 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4274365 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4284375 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4294385 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4304395 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4314405 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4324415 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4334425 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4344435 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4354445 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4364455 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4374465 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4384475 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4394485 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4404495 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4414505 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4424515 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4434525 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4444535 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4454545 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4464555 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4474565 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4484575 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4494585 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4504595 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4514605 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4524615 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4534625 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4544635 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4554645 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4564655 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4574665 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4584675 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4594685 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4604695 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4614705 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4624715 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4634725 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4644735 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4654745 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4664755 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4674765 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4684775 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4694785 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4704795 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4714805 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4724815 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4734825 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4744835 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4754845 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4764855 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4774865 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4784875 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4794885 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4804895 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4814905 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4824915 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4834925 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4844935 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4854945 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4864955 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4874965 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4884975 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4894985 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4904995 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4915005 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4925015 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4935025 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4945035 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4955045 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4965055 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4975065 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4985075 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 4995085 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5005095 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5015105 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5025115 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5035125 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5045135 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5055145 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5065155 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5075165 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5085175 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5095185 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5105195 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5115205 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5125215 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5135225 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5145235 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5155245 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5165255 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5175265 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5185275 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5195285 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5205295 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5215305 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5225315 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5235325 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5245335 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5255345 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5265355 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5275365 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5285375 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5295385 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5305395 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5315405 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5325415 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5335425 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5345435 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5355445 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5365455 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5375465 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5385475 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5395485 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5405495 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5415505 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5425515 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5435525 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5445535 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5455545 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5465555 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5475565 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5485575 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5495585 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5505595 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5515605 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5525615 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5535625 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5545635 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5555645 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5565655 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5575665 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5585675 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5595685 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5605695 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5615705 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5625715 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5635725 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5645735 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5655745 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5665755 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5675765 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5685775 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5695785 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5705795 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5715805 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5725815 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5735825 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5745835 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5755845 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5765855 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5775865 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5785875 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5795885 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5805895 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5815905 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5825915 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5835925 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5845935 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5855945 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5865955 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5875965 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5885975 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5895985 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5905995 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5916005 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5926015 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5936025 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5946035 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5956045 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5966055 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5976065 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5986075 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 5996085 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6006095 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6016105 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6026115 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6036125 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6046135 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6056145 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6066155 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6076165 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6086175 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6096185 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6106195 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6116205 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6126215 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6136225 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6146235 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6156245 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6166255 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6176265 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6186275 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6196285 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6206295 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6216305 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6226315 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6236325 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6246335 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6256345 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6266355 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6276365 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6286375 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6296385 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6306395 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6316405 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6326415 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6336425 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6346435 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6356445 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6366455 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6376465 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6386475 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6396485 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6406495 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6416505 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6426515 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6436525 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6446535 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6456545 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6466555 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6476565 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6486575 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6496585 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6506595 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6516605 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6526615 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6536625 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6546635 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6556645 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6566655 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6576665 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6586675 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6596685 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6606695 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6616705 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6626715 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6636725 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6646735 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6656745 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6666755 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6676765 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6686775 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6696785 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6706795 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6716805 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6726815 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6736825 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6746835 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6756845 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6766855 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6776865 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6786875 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6796885 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6806895 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6816905 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6826915 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6836925 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6846935 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6856945 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6866955 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6876965 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6886975 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6896985 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6906995 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6917005 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6927015 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6937025 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6947035 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6957045 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6967055 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6977065 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6987075 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 6997085 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7007095 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7017105 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7027115 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7037125 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7047135 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7057145 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7067155 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7077165 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7087175 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7097185 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7107195 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7117205 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7127215 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7137225 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7147235 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7157245 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7167255 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7177265 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7187275 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7197285 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7207295 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7217305 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7227315 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7237325 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7247335 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7257345 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7267355 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7277365 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7287375 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7297385 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7307395 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7317405 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7327415 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7337425 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7347435 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7357445 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7367455 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7377465 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7387475 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7397485 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7407495 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7417505 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7427515 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7437525 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7447535 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7457545 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7467555 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7477565 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7487575 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7497585 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7507595 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7517605 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7527615 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7537625 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7547635 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7557645 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7567655 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7577665 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7587675 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7597685 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7607695 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7617705 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7627715 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7637725 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7647735 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7657745 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7667755 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7677765 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7687775 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7697785 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7707795 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7717805 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7727815 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7737825 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7747835 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7757845 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7767855 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7777865 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7787875 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7797885 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7807895 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7817905 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7827915 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7837925 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7847935 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7857945 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7867955 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7877965 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7887975 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7897985 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7907995 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7918005 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7928015 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7938025 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7948035 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7958045 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7968055 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7978065 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7988075 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 7998085 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8008095 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8018105 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8028115 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8038125 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8048135 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8058145 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8068155 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8078165 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8088175 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8098185 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8108195 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8118205 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8128215 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8138225 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8148235 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8158245 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8168255 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8178265 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8188275 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8198285 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8208295 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8218305 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8228315 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8238325 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8248335 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8258345 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8268355 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8278365 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8288375 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8298385 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8308395 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8318405 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8328415 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8338425 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8348435 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8358445 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8368455 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8378465 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8388475 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8398485 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8408495 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8418505 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8428515 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8438525 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8448535 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8458545 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8468555 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8478565 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8488575 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8498585 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8508595 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8518605 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8528615 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8538625 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8548635 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8558645 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8568655 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8578665 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8588675 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8598685 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8608695 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8618705 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8628715 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8638725 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8648735 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8658745 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8668755 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8678765 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8688775 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8698785 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8708795 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8718805 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8728815 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8738825 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8748835 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8758845 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8768855 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8778865 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8788875 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8798885 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8808895 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8818905 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8828915 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8838925 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8848935 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8858945 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8868955 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8878965 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8888975 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8898985 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8908995 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8919005 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8929015 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8939025 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8949035 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8959045 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8969055 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8979065 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8989075 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 8999085 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9009095 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9019105 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9029115 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9039125 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9049135 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9059145 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9069155 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9079165 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9089175 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9099185 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9109195 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9119205 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9129215 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9139225 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9149235 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9159245 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9169255 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9179265 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9189275 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9199285 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9209295 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9219305 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9229315 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9239325 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9249335 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9259345 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9269355 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9279365 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9289375 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9299385 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9309395 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9319405 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9329415 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9339425 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9349435 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9359445 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9369455 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9379465 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9389475 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9399485 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9409495 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9419505 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9429515 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9439525 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9449535 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9459545 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9469555 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9479565 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9489575 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9499585 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9509595 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9519605 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9529615 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9539625 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9549635 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9559645 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9569655 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9579665 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9589675 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9599685 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9609695 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9619705 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9629715 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9639725 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9649735 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9659745 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9669755 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9679765 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9689775 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9699785 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9709795 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9719805 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9729815 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9739825 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9749835 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9759845 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9769855 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9779865 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9789875 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9799885 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9809895 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9819905 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9829915 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9839925 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9849935 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9859945 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9869955 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9879965 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9889975 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9899985 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9909995 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9920005 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9930015 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9940025 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9950035 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9960045 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9970055 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9980065 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 9990075 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10000085 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10010095 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10020105 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10030115 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10040125 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10050135 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10060145 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10070155 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10080165 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10090175 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10100185 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10110195 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10120205 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10130215 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10140225 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10150235 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10160245 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10170255 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10180265 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10190275 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10200285 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10210295 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10220305 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10230315 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10240325 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10250335 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10260345 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10270355 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10280365 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10290375 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10300385 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10310395 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10320405 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10330415 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10340425 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10350435 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10360445 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10370455 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10380465 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10390475 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10400485 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10410495 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10420505 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10430515 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10440525 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10450535 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10460545 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10470555 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10480565 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10490575 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10500585 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10510595 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10520605 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10530615 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10540625 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10550635 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10560645 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10570655 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10580665 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10590675 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10600685 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10610695 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10620705 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10630715 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10640725 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10650735 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10660745 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10670755 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10680765 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10690775 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10700785 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10710795 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10720805 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10730815 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10740825 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10750835 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10760845 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10770855 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10780865 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10790875 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10800885 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10810895 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10820905 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10830915 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10840925 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10850935 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10860945 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10870955 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10880965 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10890975 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10900985 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10910995 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10921005 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10931015 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10941025 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10951035 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10961045 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10971055 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10981065 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 10991075 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11001085 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11011095 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11021105 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11031115 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11041125 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11051135 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11061145 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11071155 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11081165 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11091175 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11101185 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11111195 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11121205 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11131215 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11141225 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11151235 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11161245 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11171255 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11181265 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11191275 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11201285 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11211295 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11221305 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11231315 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11241325 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11251335 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11261345 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11271355 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11281365 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11291375 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11301385 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11311395 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11321405 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11331415 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11341425 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11351435 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11361445 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11371455 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11381465 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11391475 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11401485 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11411495 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11421505 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11431515 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11441525 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11451535 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11461545 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11471555 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11481565 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11491575 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11501585 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11511595 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11521605 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11531615 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11541625 ns  Iteration: 0  Instance: /testbench/exe_14
+# ** Note: +1 segundo
+#    Time: 11551635 ns  Iteration: 0  Instance: /testbench/exe_14
+# End time: 00:43:45 on Oct 30,2021, Elapsed time: 0:02:26
+# Errors: 0, Warnings: 0
