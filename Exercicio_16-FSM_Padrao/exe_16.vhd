@@ -12,7 +12,7 @@ entity exe_16 is
 end exe_16;
 
 architecture exe_16 of exe_16 is
-    type stateFSM is (E1, E2, E3, R);
+    type stateFSM is (E1, E2, E3, E4, R);
     signal FSM : stateFSM;
     
 begin
@@ -36,6 +36,10 @@ begin
                     end if;  
                 when E3 =>
                     if my_bit = '1' then
+                        FSM <= E4;
+                    end if;
+                when E4 =>
+                    if my_bit = '0' then
                         FSM <= R;
                     end if;
                 when R =>
