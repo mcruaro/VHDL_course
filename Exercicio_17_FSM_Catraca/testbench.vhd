@@ -11,6 +11,7 @@ signal reset_tb : std_logic;
 
 signal coin_tb   : std_logic;
 signal push_tb   : std_logic;
+signal release_tb   : std_logic;
 
 BEGIN
 
@@ -19,7 +20,8 @@ BEGIN
             clock   => clock_tb,
             reset   => reset_tb,
             coin    => coin_tb,
-            push    => push_tb
+            push    => push_tb,
+            release => release_tb
         );
 
 
