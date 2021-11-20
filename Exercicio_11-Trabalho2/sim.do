@@ -3,7 +3,7 @@ vlib work
 vmap work work
 
 #Compila os dois modulos
-vcom -work work exe_18.vhd
+vcom -work work decod.vhd
 vcom -work work testbench.vhd
 
 
@@ -11,6 +11,4 @@ vcom -work work testbench.vhd
 vsim -t 1ns +notimingchecks work.testbench
 
 do wave.do
-
-run 300ns
 
