@@ -30,7 +30,8 @@ BEGIN
 
     process
     begin
-        in1_tb <= "0001001110011101";
+        --in1_tb <= "0001001110011101";
+        in1_tb <= "1010110111011001";
         wait;
     end process;
 
