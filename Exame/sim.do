@@ -3,7 +3,7 @@ vlib work
 vmap work work
 
 #Compila os dois modulos
-vcom -work work exame.vhd
+vcom -work work piscaluz.vhd
 vcom -work work testbench.vhd
 
 
@@ -12,5 +12,5 @@ vsim -t 1ns +notimingchecks work.testbench
 
 do wave.do
 
-run 100ns
+run 2000ns
 
